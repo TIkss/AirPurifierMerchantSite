@@ -1,0 +1,266 @@
+
+/*------------------------- Layout styles ------------------------*/
+body{
+    min-width:320px;
+    color: white;
+}
+
+/*------------------------- Font ------------------------*/ 
+@font-face {
+    font-family: 'RokkittRegular';
+    src: url('rokkitt-regular-webfont.eot');
+    src: url('rokkitt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rokkitt-regular-webfont.woff') format('woff'),
+         url('rokkitt-regular-webfont.ttf') format('truetype'),
+         url('rokkitt-regular-webfont.svg#RokkittRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*------------------------- Header ------------------------*/ 
+.header{
+    margin:56px 10px 0px 10px;
+
+}
+
+.header ul{
+    margin:0;
+    list-style:none;
+    padding:13px 0 13px;
+    float:left;
+}
+.header hr{
+    margin-bottom: -15px;
+}
+.header ul li{
+    float:left;
+    margin:0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-width: 2px;
+    border-color:#F3F3F3;
+    border-style: solid none none none;
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    -ms-transition: border-color 0.3s ease-in-out;
+    -o-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.header ul li:hover,.header ul li.active{
+    border-color:#5b5b5b;
+}
+
+.header ul li a{
+    padding: 0 15px 0 15px;
+    font-size:20px;
+    text-decoration:none;
+    color:#5e5e5e;
+    font-family: 'RokkittRegular';
+    outline:none;
+}
+#logo{
+    margin-
+}
+/*------------------------- Body ------------------------*/ 
+#showbox img.nails{
+    max-width: 430px;
+}
+
+#showbox div.caption{
+    max-width: 430px;
+    color:white;
+    height: 200px;
+}
+#showbox a.arrow{
+    float: right;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition:background-color 0.3s ease-in-out;
+}
+#showbox a.arrow:after{
+    display: block;
+    padding-top: 5px;
+    width: 30px;
+    height:30px;
+    content: url(/images/arrow-8-16.gif);
+    text-align: center;
+}
+
+#showbox a.arrow:hover{
+    background-color: #5A554E;
+}
+
+#showbox div.icon{
+    padding: 25px 0 0 25px;
+}
+
+#blueair{
+    background-color:#6C91FF; 
+
+}
+#blueair a{
+    background-color:#4775FF; 
+
+}
+#iqair{
+    background-color:#F7AFE0;
+}
+#iqair a{
+    background-color:#CE87B8;
+}
+
+.box1{
+    margin: 30px 0 20px 0;
+    text-align: center;
+    color:#B7B7B7;
+}
+.box1 h1{
+    font-weight: 800;
+}
+.box1 p{
+    height: 130px;
+}
+.box1 div.heading{
+    height: 90px;
+}
+
+.items {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.items div.thumnail{
+    border: 1px solid #C9DDDC;
+    padding: 10px;
+}
+.items a.cap{
+    color:#72DCD8;
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.items a.cap:hover{
+    color:#707676;
+}
+.items a.more{
+    border: 1px solid #99A5A5;
+    color:#707676;
+    margin-bottom: 15px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+.items a.more:hover{
+    color:#72DCD8;
+}
+.items p{
+    font-size: 12px;
+    color:#707676;
+    height: 90px;
+}
+.items img{
+    max-width: 270px;
+    height: 300px;
+}
+
+
+.table-striped {
+    background-color: #E0F0FE;
+}
+.table th{
+    color:#3A73A2;
+    font-size: 19px;
+}
+dl{
+    margin-bottom: 50px;
+    color:#227CA3;
+}
+dl dt{
+    font-weight: normal;
+    float: left;
+    width: 80px;
+}
+
+hr.blod{
+    border-top-color: #c9e2b3;
+    border-width: 2px;
+}
+.panel >div a {
+    text-decoration: none;
+}
+
+.knowledge a{
+    text-decoration: none;
+}
+.knowledge ul{
+    margin-top: 20px;
+    list-style-type: circle;
+}
+.knowledge ul >li{
+    margin: 5px 0;
+}
+
+.formbox{
+    margin-left: 20px;
+}
+
+/*------------------------- Footer ------------------------*/ 
+.footer{
+    padding:65px 10px 207px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.footer ul{
+    list-style:none;
+    margin:0 0 0 60px;
+    padding:0;
+    overflow:hidden;
+    float:left;
+}
+.footer ul li:first-child a{
+    border:none;
+    padding:0 6px 0 0;
+}
+.footer ul li{
+    float:left;
+}
+.footer ul li a:hover{
+    color:#F78117;
+}
+.footer ul li a{
+    border-width: 1px;
+    border-color:#5b5b5b;
+    border-style: none none none solid;
+    color:#5b5b5b;
+    font-size:13px;
+    font-family: Trebuchet MS;
+    text-decoration:none;
+    font-weight:bold;
+    padding:0 6px;
+    outline:none;
+}
+.footer p{
+    color:#5b5b5b;
+    font-size:13px;
+    font-family: Trebuchet MS;
+    font-weight:bold;
+    float:left;
+    margin:6px 0 0 135px;
+}
+.footer div.connect{
+    float:left;
+    margin:0 0 0 92px;
+}
+.footer div.connect a{
+    float:left;
+    outline:none;
+}
+

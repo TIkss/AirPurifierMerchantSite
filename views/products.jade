@@ -1,0 +1,92 @@
+extends layout
+block append links
+    link(type='text/css', rel='stylesheet',href='/rightbox/widget/css/ui-lightness/jquery-ui-1.8.16.custom.css')
+    link(type='text/css', rel='stylesheet',href='/rightbox/widget/css/lightbox.min.css')
+
+
+block content
+    hr
+    div.row
+        a#iqair-pro
+        h2 IQair products
+    div.row
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/AFIQR002_HP250.gif'): img.nails(src='/images/AFIQR002_HP250.gif', alt='...')  
+                div.caption
+                    a.cap(href='price#iqair-price') IQAir HealthPro plus
+                    p IQAir® HealthPro plus已应用于世界上领先的科学院所，医院，商业机构。主要对其特定的环境状况提供专业的空气净化解决方案。对应国内型号HealthPro 250
+                            
+                a.btn.more(href='price#iqair-price') 更多
+                
+
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/iqair-healthproplus.jpg'): img.nails(src='/images/iqair-healthproplus.jpg', alt='...')    
+                div.caption
+                    a.cap(href='price#iqair-price') IQAir HealthPro
+                    p IQAir® HealthPro 提供先进的过滤技术，以紧凑的模式控制家庭和办公室环境中的吸入性过敏源，病原体，化学气体和异味。对应国内型号HealthPro 150
+                            
+                a.btn.more(href='price#iqair-price') 更多
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/HEALTHPRO-COMPACT.jpg'): img.nails(src='/images/HEALTHPRO-COMPACT.jpg', alt='...')   
+                div.caption
+                    a.cap(href='price#iqair-price') IQAir HealthPro Compactt
+                    p IQAir Compactt 系统提供先进的过滤技术，以紧凑的模式控制家庭和办公室环境中的吸入性过敏源和病原体。对应国内型号Allergen 100
+                            
+                a.btn.more(href='price#iqair-price') 更多
+
+    div.row
+        a#blueair-pro
+        hr
+        h2 Blueair products
+    div.row
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/blueair-203.jpg'): img.nails(src='/images/blueair-203.jpg', alt='...')  
+                div.caption
+                    a.cap(href='price#blueair-price') blueair 203
+                    p 瑞士制造的IQAir艾可爱尔是最好的空气净化器，旨在提高国内空气质量水平。IQAir是北京，上海，广州，成都中评价最高的空气净化器，专业完美的清洁空气专家。
+                            
+                a.btn.more(href='price#blueair-price') 更多
+                
+
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/403.jpg'): img.nails(src='/images/403.jpg', alt='...')    
+                div.caption
+                    a.cap(href='price#blueair-price') Blueair 403 Air Purifier
+                    p 瑞士制造的IQAir艾可爱尔是最好的空气净化器，旨在提高国内空气质量水平。IQAir是北京，上海，广州，成都中评价最高的空气净化器，专业完美的清洁空气专家。
+                            
+                a.btn.more(href='price#blueair-price') 更多
+
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/blueair-503.jpg'): img.nails(src='/images/blueair-503.jpg', alt='...')   
+                div.caption
+                    a.cap(href='price#blueair-price') Blueair 503 Air Purifier
+                    p 瑞士制造的IQAir艾可爱尔是最好的空气净化器，旨在提高国内空气质量水平。IQAir是北京，上海，广州，成都中评价最高的空气净化器，专业完美的清洁空气专家。
+                            
+                a.btn.more(href='price#blueair-price') 更多
+
+        div.col-lg-4.col-md-4.col-sm-6.col-xs-12.items
+            div.thumnail
+                a.lb_products(href='/images/603_unit.jpg'): img.nails(src='/images/603_unit.jpg', alt='...')   
+                div.caption
+                    a.cap(href='price#blueair-price') Blueair 603 Air Purifier
+                    p 瑞士制造的IQAir艾可爱尔是最好的空气净化器，旨在提高国内空气质量水平。IQAir是北京，上海，广州，成都中评价最高的空气净化器，专业完美的清洁空气专家。
+                            
+                a.btn.more(href='price#blueair-price') 更多
+
+block append scripts
+    script(type="text/javascript", src="/rightbox/widget/lib/jquery.ui.core.min.js")
+    script(type="text/javascript", src="/rightbox/widget/lib/jquery.ui.widget.min.js")
+    script(type="text/javascript", src="/rightbox/widget/lib/jquery.ui.rlightbox.min.js")
+    script.
+       jQuery(function($) {
+        $( ".lb_products" ).rlightbox({counterDelimiter: " of "});
+        });                         
+                        
+                            
+
